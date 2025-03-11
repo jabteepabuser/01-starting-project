@@ -1,6 +1,5 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 
-import { AppComponent } from './app/app.component'; // THIS IS THE ROOT COMPONENT
-import { MyHeaderComponent } from './app/myheader.component';
+import { AppComponent } from './app/app.component'; //import the subroot component
 
-bootstrapApplication(AppComponent).catch((err) => console.error(err)); //THIS IS THE ROOT COMPONENT APPCOMPONENT
+bootstrapApplication(AppComponent).catch((err) => console.error(err));
