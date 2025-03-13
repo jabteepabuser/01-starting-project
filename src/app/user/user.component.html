@@ -1,1 +1,9 @@
-<p>user works!</p>
+<div>
+    <button>
+        <img [src]="imagePath"  
+        [alt]="selectedUser.name" /> <!--imagePath is a getter-->>
+        <span>{{ selectedUser.name }}</span> <!--fetched from dummy-users.ts-->
+    </button>
+</div>
+
+<!-- {{ }} means string interpolation and [property] means property binding -->

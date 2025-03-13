@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from './header/header.component'; // imported the premade component here since this is the root component.
+import { HeaderComponent } from './header/header.component';
+import { UserComponent } from "./user/user.component"; 
+
 
 @Component({ 
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent], //currently only has MyHeaderComponent.
+  imports: [HeaderComponent, UserComponent], 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
